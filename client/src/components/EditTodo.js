@@ -6,7 +6,7 @@ const EditTodo = ({ todo }) => {
   const handleEditText = async (todoId) => {
     try {
       const body = { description };
-      const res = await fetch(`http://localhost:5000/todos/${todoId}`, {
+      await fetch(`http://localhost:5000/todos/${todoId}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
