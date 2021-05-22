@@ -1,5 +1,3 @@
-const InputTodo = () => {
-  return <h1>input todo</h1>;
-};
+const EditTodo = () => {};
 
-export default InputTodo;
+export default EditTodo;
